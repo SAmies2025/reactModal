@@ -1,3 +1,14 @@
+/* Root element styling */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  max-width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +46,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Center buttons with text */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  align-self: center;
 }
